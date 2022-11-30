@@ -1,0 +1,24 @@
+
+
+.seccion-servicio{
+    background-color:#dbe1ea ;
+    padding-bottom: 40px;
+}
+.text-card {
+  font-size:13px;
+  letter-spacing: 0.4px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 100;
+  padding: 20px;
+}
+
+.card-servicio{
+margin-top: 20px;
+box-shadow: 5px 5px 5px rgb(208, 208, 208);
+border-color: white;
+}
+.titulo-card{
+    margin-top: 20px;
+     
+    font-size: 16px;
+}

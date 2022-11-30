@@ -1,17 +1,18 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import '../Servicios/servicios.css'
 
 const Servicios = () => {
   return (
-    <div className="header container-fluid text-center">
-      <p className="titulo-home">Servicios</p>
-
+    <div className="seccion-servicio container-fluid text-center">
+      <p className="titulo-seccion">Nuestros Servicios</p>
+      <center>
       <div className="cards-favoritos container">
-        <Card className="card-favorito" style={{ width: "18rem" }}>
+        <Card className="card-servicio" style={{ width: "18rem" }}>
           {/* <Card.Img className="foto-menu" variant="top" src={SUSHI1} /> */}
           <Card.Body>
             <Card.Title className="titulo-card">
-              CORRETAJE DE PROPIEDADES
+              Corretaje de Propiedades
             </Card.Title>
             <Card.Text className="text-card">
               Sushi preparado con salmón del mar negro y exclusivas paltas de
@@ -21,11 +22,11 @@ const Servicios = () => {
           </Card.Body>
         </Card>
 
-        <Card className="card-favorito" style={{ width: "18rem" }}>
+        <Card className="card-servicio" style={{ width: "18rem" }}>
           {/* <Card.Img className="foto-menu" variant="top" src={sushi2} /> */}
           <Card.Body>
             <Card.Title className="titulo-card">
-              ADMINISTRACION DE PROPIEDADES
+              Administración de Propiedades
             </Card.Title>
             <Card.Text className="text-card">
               Creaciones del chef seleccionadas, menú de 12 piezas. Cada día el
@@ -37,11 +38,11 @@ const Servicios = () => {
           </Card.Body>
         </Card>
 
-        <Card className="card-favorito" style={{ width: "18rem" }}>
+        <Card className="card-servicio" style={{ width: "18rem" }}>
           {/* <Card.Img className="foto-menu" variant="top" src={sushi6} /> */}
           <Card.Body>
             <Card.Title className="titulo-card">
-              SERVICIOS LEGALES INMMOBILIARIOS
+              Servicios Legales Inmobiliarios
             </Card.Title>
             <Card.Text className="text-card">
               Exquisito arroz cubierto por un sombrero de pan de almendras,
@@ -52,11 +53,11 @@ const Servicios = () => {
           </Card.Body>
         </Card>
 
-        <Card className="card-favorito" style={{ width: "18rem" }}>
+        <Card className="card-servicio" style={{ width: "18rem" }}>
           {/* <Card.Img className="foto-menu" variant="top" src={sushi7} /> */}
           <Card.Body>
             <Card.Title className="titulo-card">
-              ESTUDIOS Y TASACIONES
+              Estudios y Tasaciones
             </Card.Title>
             <Card.Text className="text-card">
               Carne macerada de ciervo en especias del oriente, envueltas en
@@ -65,6 +66,7 @@ const Servicios = () => {
           </Card.Body>
         </Card>
       </div>
+      </center>
     </div>
   );
 };

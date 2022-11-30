@@ -1,0 +1,20 @@
+.seccion-quienes{
+    background-color: #2b4460;
+}
+
+.texto-descripcion{
+    letter-spacing: 0.4px;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 10px;
+    color: white;
+}
+.titulo-seccion-quienes{
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 100;
+    letter-spacing: 1.9px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}

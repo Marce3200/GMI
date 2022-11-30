@@ -4,12 +4,12 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import QuienesSomos from "./componentes/QuienesSomos";
+import QuienesSomos from "./componentes/QuienesSomos/QuienesSomos";
 import Home from "./componentes/Home"
 import Contacto from "./componentes/Contacto";
 // import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Layout from "./componentes/Layout";
-import Servicios from "./componentes/Servicios";
+import Servicios from "./componentes/Servicios/Servicios";
 
 const App = () => {
   return (

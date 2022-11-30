@@ -1,40 +1,42 @@
 import React from "react";
+import Col from "react-bootstrap/esm/Col";
+import Container from "react-bootstrap/esm/Container";
+import Row from "react-bootstrap/esm/Row";
+import '../QuienesSomos/quienessomos.css'
 
 const QuienesSomos = () => {
   return (
-    <div className="container">
-      <div className=" row">
-        <div className="col"></div>
-        <div className="col">
-          <p className="titulo-home">
-           GMI
+    <Container fluid className="seccion-quienes">
+      <Row>
+        <center>
+        <Col>
+        
+          <p className="titulo-seccion-quienes">
+           Quiénes Somos
           </p>
 
           <p className="texto-descripcion">
-            IMG Gestión Inmobiliaria nace a partir de la unión de competencias
+            MGI Gestión Inmobiliaria nace a partir de la unión de competencias
             entre profesionales provenientes del área legal con profesionales
             provenientes de la administración de empresas.
-            <br />
+            <br /><br />
             La experiencia acumulada nos llevó a dar un paso adelante de la
             asesoría técnica, para convertirnos en Gestores Inmobiliarios.
             Poniendo a disposición de nuestros clientes todas nuestras
             competencias. Nuestra experiencia nos permite comprender que el
             éxito de la Gestión Inmobiliaria se basa no sólo en una acabada
             asesoría técnica, sino también en entender las necesidades
-            particulares de cada uno de nuestros clientes. Por eso consideramos
+            particulares de cada uno de nuestros clientes. 
+            
+            <br /><br />Por eso consideramos
             que la comunicación es un pilar fundamental en las relaciones que
             generamos.
           </p>
         
-          <p>
-            Visión Entregar un servicio de alta calidad técnica, eficiente y
-            transparente.
-          </p>
-          <p>
-            Valores Compromiso, responsabilidad y gratitud a nuestros clientes.
-          </p>
-        </div>
-      </div>
+          
+        </Col></center>
+      </Row>
+      
 
       <div className="row gx-xl-10 gy-6">
         <div className="col-md-6">
@@ -88,7 +90,7 @@ const QuienesSomos = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 
