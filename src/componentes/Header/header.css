@@ -1,6 +1,6 @@
 .logosection {
   background: url(../img/background.jpg) no-repeat center fixed;
-  height: 500px;
+  height: 80vh;
   background-size: cover;
   max-width: 100%;
   
@@ -16,12 +16,12 @@
 }
 
 .logo {
-  margin-top: 20vh;
-  width: 40%;
+  margin-top: 15vh;
+  width: 250px;
 }
 
 .form-mail {
-  margin-top: 40px;
+  margin-top: 30px;
   color: white;
   width: 50%;
   font-weight: 100;
