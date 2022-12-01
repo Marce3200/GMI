@@ -1,12 +1,13 @@
 .seccion-quienes{
     background-color: #2b4460;
+    padding-bottom:50px;
 }
 
 .texto-descripcion{
     letter-spacing: 0.4px;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 300;
-    padding: 10px;
+    padding: 30px;
     color: white;
 }
 .titulo-seccion-quienes{
@@ -14,7 +15,26 @@
     font-size: x-large;
     font-weight: 100;
     letter-spacing: 1.9px;
-    padding-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
     color: white;
 }
+.text-valores {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 100;
+    padding: 10x;
+  }
+  
+  .card-mision{
+    width: 80%;
+  margin-top: 5px;
+  box-shadow: 5px 5px 5px rgb(24, 24, 24);
+  border-color: white;
+  }
+  .titulo-valores{
+      margin-top: 15px;
+      font-size: 16px;
+  }
