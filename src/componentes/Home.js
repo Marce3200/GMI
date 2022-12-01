@@ -6,8 +6,8 @@ import Contacto from "./Contacto";
 const Home = () => {
   return (
     <div>
-      <QuienesSomos />
       <Servicios />
+      <QuienesSomos />
       <Contacto />
     </div>
   );
