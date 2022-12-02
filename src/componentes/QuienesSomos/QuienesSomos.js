@@ -31,11 +31,12 @@ const QuienesSomos = () => {
         </Row>
       </center>
       <center>
-        <Row>
+        <Row className="valores">
           <Col sm={12} md={4}>
             <Card className="card-mision mt-3">
               {/* <Card.Img className="foto-menu" variant="top" src={SUSHI1} /> */}
               <Card.Body>
+              <i className="fa-regular fa-heart"></i>
                 <Card.Title className="titulo-valores text-center">
                   Misión
                 </Card.Title>
@@ -50,6 +51,7 @@ const QuienesSomos = () => {
             <Card className="card-mision mt-3">
               {/* <Card.Img className="foto-menu" variant="top" src={sushi2} /> */}
               <Card.Body>
+              <i className="fa-regular fa-eye"></i>
                 <Card.Title className="titulo-valores text-center">
                   Visión
                 </Card.Title>
@@ -64,6 +66,7 @@ const QuienesSomos = () => {
             <Card className="card-mision mt-3">
               {/* <Card.Img className="foto-menu" variant="top" src={sushi6} /> */}
               <Card.Body>
+              <i className="fa-regular fa-handshake"></i>
                 <Card.Title className="titulo-valores text-center">
                   Valores
                 </Card.Title>

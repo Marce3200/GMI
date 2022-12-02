@@ -1,0 +1,19 @@
+.titulo-contacto{
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 100;
+    letter-spacing: 1.9px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: rgb(13, 13, 13);
+}
+
+.form-contacto{
+    width: 70%;
+    font-size: small;
+}
+
+.button-enviar{
+    margin-bottom: 30px;
+}

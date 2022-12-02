@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import QuienesSomos from "./componentes/QuienesSomos/QuienesSomos";
 import Home from "./componentes/Home"
-import Contacto from "./componentes/Contacto";
+import Contacto from "./componentes/Contacto/Contacto";
 // import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Layout from "./componentes/Layout";
 import Servicios from "./componentes/Servicios/Servicios";

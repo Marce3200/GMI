@@ -15,11 +15,12 @@ const Servicios = () => {
             <Card className="card-servicio">
               {/* <Card.Img className="foto-menu" variant="top" src={SUSHI1} /> */}
               <Card.Body>
+              <i className="fa-solid fa-sign-hanging fs-3 mt-3"></i>
                 <Card.Title className="titulo-card">
                   Corretaje de Propiedades
                 </Card.Title>
                 <Card.Text className="text-card">
-                  
+                
 Compra/venta y arriendo de distintos bienes Inmuebles (casas, deptos, comercios, oficinas, terrenos etc.)
 Publicación de las propiedades en los más importantes portales de venta y arriendo del país (portal inmobiliario, yapo, redes sociales, etc).
 Asesoría calificada de inversión y rentabilidad de los distintos Bienes Inmuebles. Atención personalizada.
@@ -30,9 +31,11 @@ Protocolos estrictos de evaluación de arrendatarios.
             </Card>
           </Col>
           <Col sm={12} md={6}>
+          
             <Card className="card-servicio">
               {/* <Card.Img className="foto-menu" variant="top" src={sushi2} /> */}
               <Card.Body>
+              <i className="fa-solid fa-house-circle-check fs-3 mt-3"></i>
                 <Card.Title className="titulo-card">
                   Administración de Propiedades
                 </Card.Title>
@@ -51,6 +54,7 @@ Resguardo de rentabilidad y patrimonio de nuestros clientes.
           <Card className="card-servicio">
             {/* <Card.Img className="foto-menu" variant="top" src={sushi6} /> */}
             <Card.Body>
+            <i className="fa-solid fa-file-contract fs-3 mt-3"></i>
               <Card.Title className="titulo-card">
                 Servicios Legales Inmobiliarios
               </Card.Title>
@@ -61,12 +65,14 @@ Asesoría Legal Inmobiliaria
 
               </Card.Text>
             </Card.Body>
+            
           </Card>
           </Col>
-          <Col sm={12} md={6}>
+          <Col sm={12} md={6} >
             <Card className="card-servicio">
               {/* <Card.Img className="foto-menu" variant="top" src={sushi7} /> */}
               <Card.Body>
+              <i className="fa-solid fa-scale-balanced fs-3 mt-3"></i>
                 <Card.Title className="titulo-card">
                   Estudios y Tasaciones
                 </Card.Title>

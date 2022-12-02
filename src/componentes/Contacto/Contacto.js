@@ -1,11 +1,15 @@
 // import { addDoc, collection } from "firebase/firestore";
 // import React, { useState } from "react";
+import "../Contacto/contacto.css"
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 // import { db } from "../Firestore";
-// import "./contacto.css";
+
 // import swal from "sweetalert";
 import React from "react"
+import Container from "react-bootstrap/esm/Container";
+import Row from "react-bootstrap/esm/Row";
+import Col from "react-bootstrap/esm/Col";
 
 export default function Contacto() {
   // const [formValues, setFormValues] = useState({
@@ -35,26 +39,13 @@ export default function Contacto() {
     // setFormValues(newValues);
   }
   return (
-    <div className="container row">
-      <div className="col">
-        {/* <p className="titulo-home">Visítanos</p> */}
-        <p className="texto-descripcion">
-          Nigiri Sushi House restaurant con 14 años de trayectoria y un listado
-          de preparaciones que no solo cuenta con recetas tradicionales de
-          Japón, sino también con platos de autor con ingredientes de diferentes
-          países del continente asiático. Todo en manos del chef y fundador,
-          Minsu Bang.
-        </p>
-        {/* <p className="texto-descripcion-1">
-          Estamos ubicados en Providencia 2463 Santiago, Chile <br />
-          info@nigirisushihouse.cl
-        </p> */}
-      </div>
-      <div className="col">
-        <p className="titulo-home">Contáctanos</p>
+    <Container>
+      <Row>
+        <center> <Col>
+        <p className="titulo-contacto">Contáctanos</p>
         <Form className="form-contacto">
           <Form.Group className="mb-3" controlId="name">
-            <Form.Label className="form-label">Nombre*</Form.Label>
+            <Form.Label className="form-label">Nombre</Form.Label>
             <Form.Control
               size="sm"
               type="text"
@@ -101,7 +92,8 @@ export default function Contacto() {
             Enviar
           </Button>
         </div>
-      </div>
-    </div>
+        </Col> </center>
+        </Row>
+      </Container>
   );
 }

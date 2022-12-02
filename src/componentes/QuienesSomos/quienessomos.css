@@ -17,8 +17,8 @@
     font-weight: 100;
     letter-spacing: 1.9px;
     padding-top: 40px;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
+    padding-bottom: 10px;
+    
     color: white;
 }
 .text-valores {
@@ -32,10 +32,17 @@
   .card-mision{
     width: 80%;
   margin-top: 5px;
-  box-shadow: 5px 5px 5px rgb(24, 24, 24);
+  background-color: transparent;
+  color: white;
   border-color: white;
+  padding: 20px;
   }
   .titulo-valores{
       margin-top: 15px;
       font-size: 16px;
   }
+
+  .valores{
+    padding: 30px;
+  }
+  
