@@ -1,14 +1,16 @@
 import React from "react";
-import QuienesSomos from "./QuienesSomos";
-import Servicios from "./Servicios";
+import QuienesSomos from "./QuienesSomos/QuienesSomos";
+import Servicios from "./Servicios/Servicios";
 import Contacto from "./Contacto";
+import Header from "./Header/Header";
 
 const Home = () => {
   return (
     <div>
-      <Servicios />
-      <QuienesSomos />
-      <Contacto />
+      <Header/>
+      <Servicios/>
+      <QuienesSomos/>
+      <Contacto/>
     </div>
   );
 };
