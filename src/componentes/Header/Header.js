@@ -8,7 +8,7 @@ import Form from "react-bootstrap/Form";
 
 const Header = () => {
   return (
-    <Container fluid className=" container-fluid p-0">
+    <Container fluid className="  p-0">
       <Row className="logosection">
         <Col className="text-center">
           <img className="logo" src={logo} />

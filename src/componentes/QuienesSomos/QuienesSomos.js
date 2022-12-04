@@ -4,11 +4,17 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import "../QuienesSomos/quienessomos.css";
 import Card from "react-bootstrap/Card";
+import propiedad from "../img/propiedad.jpg"
 
 const QuienesSomos = () => {
   return (
     <Container fluid className="seccion-quienes">
       <center>
+        <Row className="row-quienes">
+          <Col>
+          <img  className="img-fluid" src={propiedad}></img>
+       </Col>
+       </Row>
         <Row className="w-75">
           <Col>
             <p className="titulo-seccion-quienes">Quiénes Somos</p>
