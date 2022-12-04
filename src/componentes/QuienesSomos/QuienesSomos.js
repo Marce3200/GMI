@@ -8,7 +8,7 @@ import propiedad from "../img/propiedad.jpg"
 
 const QuienesSomos = () => {
   return (
-    <Container fluid className="seccion-quienes">
+    <Container fluid className="seccion-quienes p-0">
       <center>
         <Row className="row-quienes">
           <Col>
@@ -39,7 +39,7 @@ const QuienesSomos = () => {
       <center>
         <Row className="valores">
           <Col sm={12} md={4}>
-            <Card className="card-mision mt-3">
+            <Card className="card-mision mt-3" style={{height:"90%"}}>
               {/* <Card.Img className="foto-menu" variant="top" src={SUSHI1} /> */}
               <Card.Body>
               <i className="fa-regular fa-heart"></i>
@@ -54,7 +54,7 @@ const QuienesSomos = () => {
             </Card>
           </Col>
           <Col sm={12} md={4}>
-            <Card className="card-mision mt-3">
+            <Card className="card-mision mt-3" style={{height:"90%"}}>
               {/* <Card.Img className="foto-menu" variant="top" src={sushi2} /> */}
               <Card.Body>
               <i className="fa-regular fa-eye"></i>
@@ -69,7 +69,7 @@ const QuienesSomos = () => {
             </Card>
           </Col>
           <Col sm={12} md={4}>
-            <Card className="card-mision mt-3">
+            <Card className="card-mision mt-3" style={{height:"90%"}}>
               {/* <Card.Img className="foto-menu" variant="top" src={sushi6} /> */}
               <Card.Body>
               <i className="fa-regular fa-handshake"></i>

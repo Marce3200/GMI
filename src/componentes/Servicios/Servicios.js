@@ -13,7 +13,7 @@ const Servicios = () => {
         <p className="titulo-seccion">Nuestros Servicios</p>
 
         <Col sm={12} md={6}>
-          <Card className="card-servicio" style={{height:"90%"}}>
+          <Card className="card-servicio" style={{height:"95%"}}>
             {/* <Card.Img className="foto-menu" variant="top" src={SUSHI1} /> */}
             <ListGroup variant="flush">
               <i className="fa-solid fa-sign-hanging fs-3 mt-3"></i>
@@ -48,7 +48,7 @@ const Servicios = () => {
           </Card>
         </Col>
         <Col sm={12} md={6}>
-          <Card className="card-servicio" style={{height:"90%"}}>
+          <Card className="card-servicio" style={{height:"95%"}}>
             {/* <Card.Img className="foto-menu" variant="top" src={sushi2} /> */}
             <ListGroup variant="flush">
               <i className="fa-solid fa-house-circle-check fs-3 mt-3"></i>
