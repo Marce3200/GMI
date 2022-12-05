@@ -12,7 +12,7 @@ const Servicios = () => {
       <Row className="mx-lg-n5 p-5 ">
         <p className="titulo-seccion-servicio">Nuestros Servicios</p>
 
-        <Col sm={12} md={6} lg={3} className="py-1 px-lg-1">
+        <Col sm={12} md={6} lg={3} className="py-1 px-lg-2">
           <Card className="card-servicio" style={{height:"95%"}}>
             {/* <Card.Img className="foto-menu" variant="top" src={SUSHI1} /> */}
             <ListGroup variant="flush">
@@ -47,7 +47,7 @@ const Servicios = () => {
             </ListGroup>
           </Card>
         </Col>
-        <Col sm={12} md={6} lg={3} className="py-1 px-lg-1">
+        <Col sm={12} md={6} lg={3} className="py-1 px-lg-2">
           <Card className="card-servicio" style={{height:"95%"}}>
             {/* <Card.Img className="foto-menu" variant="top" src={sushi2} /> */}
             <ListGroup variant="flush">
@@ -87,7 +87,7 @@ const Servicios = () => {
               </ListGroup>
           </Card>
         </Col>
-        <Col sm={12} md={6} lg={3} className="py-1 px-lg-1">
+        <Col sm={12} md={6} lg={3} className="py-1 px-lg-2">
           <Card className="card-servicio" style={{height:"95%"}}>
             {/* <Card.Img className="foto-menu" variant="top" src={sushi6} /> */}
             <ListGroup variant="flush">
@@ -112,7 +112,7 @@ const Servicios = () => {
               </ListGroup>
           </Card>
         </Col>
-        <Col sm={12} md={6} lg={3} className="py-1 px-lg-1">
+        <Col sm={12} md={6} lg={3} className="py-1 px-lg-2">
           <Card className="card-servicio" style={{height:"95%"}}>
             {/* <Card.Img className="foto-menu" variant="top" src={sushi7} /> */}
             <ListGroup variant="flush">
