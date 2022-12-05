@@ -1,8 +1,9 @@
 .seccion-servicio {
-  background-color: #dbe1ea;
-  padding-bottom: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
+  background: url(../img/fondopng.png) no-repeat center fixed;
+  
+  background-size: cover;
+  max-width: 100%;
+  margin: 0;
 
 }
 .text-card {
@@ -17,7 +18,7 @@
   padding: 20px;
   margin: 20px;
   margin-top: 20px;
-  box-shadow: 5px 5px 5px rgb(208, 208, 208);
+
   border-color: white;
   
 }

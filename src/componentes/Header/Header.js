@@ -6,10 +6,12 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 
+
 const Header = () => {
   return (
     <Container fluid className="  p-0">
       <Row className="logosection">
+        
         <Col className="text-center">
           <img className="logo" src={logo} />
           <p className="bajada-header">

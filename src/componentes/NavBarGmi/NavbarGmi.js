@@ -8,19 +8,19 @@ import "../NavBarGmi/navbar.css"
 
 const NavbarGmi = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbar">
+    <Navbar collapseOnSelect expand="lg"   className="navbar" variant="dark">
       <Container>
         <Navbar.Brand href="/">
           <img className="mini-logo" src={iso}/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto links-footer">
+          <Nav className="me-auto links-nav">
            
           </Nav>
           <Nav>
-             <Nav.Link href="/about">Nosotros</Nav.Link>
-            <Nav.Link href="/menu">Servicios</Nav.Link>
+            <Nav.Link href="/servicios">Servicios</Nav.Link>
+            <Nav.Link href="/quienes-somos">Nosotros</Nav.Link>
             <Nav.Link href="/contacto">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
