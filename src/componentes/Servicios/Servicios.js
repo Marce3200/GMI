@@ -9,10 +9,10 @@ import ListGroup from "react-bootstrap/ListGroup";
 const Servicios = () => {
   return (
     <Container fluid className="seccion-servicio text-center">
-      <Row>
+      <Row className="mx-lg-n5 p-5 ">
         <p className="titulo-seccion-servicio">Nuestros Servicios</p>
 
-        <Col sm={12} md={6}>
+        <Col sm={12} md={6} lg={3} className="py-1 px-lg-1">
           <Card className="card-servicio" style={{height:"95%"}}>
             {/* <Card.Img className="foto-menu" variant="top" src={SUSHI1} /> */}
             <ListGroup variant="flush">
@@ -47,7 +47,7 @@ const Servicios = () => {
             </ListGroup>
           </Card>
         </Col>
-        <Col sm={12} md={6}>
+        <Col sm={12} md={6} lg={3} className="py-1 px-lg-1">
           <Card className="card-servicio" style={{height:"95%"}}>
             {/* <Card.Img className="foto-menu" variant="top" src={sushi2} /> */}
             <ListGroup variant="flush">
@@ -87,8 +87,8 @@ const Servicios = () => {
               </ListGroup>
           </Card>
         </Col>
-        <Col sm={12} md={6}>
-          <Card className="card-servicio" style={{height:"90%"}}>
+        <Col sm={12} md={6} lg={3} className="py-1 px-lg-1">
+          <Card className="card-servicio" style={{height:"95%"}}>
             {/* <Card.Img className="foto-menu" variant="top" src={sushi6} /> */}
             <ListGroup variant="flush">
               <i className="fa-solid fa-file-contract fs-3 mt-3"></i>
@@ -112,8 +112,8 @@ const Servicios = () => {
               </ListGroup>
           </Card>
         </Col>
-        <Col sm={12} md={6}>
-          <Card className="card-servicio" style={{height:"90%"}}>
+        <Col sm={12} md={6} lg={3} className="py-1 px-lg-1">
+          <Card className="card-servicio" style={{height:"95%"}}>
             {/* <Card.Img className="foto-menu" variant="top" src={sushi7} /> */}
             <ListGroup variant="flush">
               <i className="fa-solid fa-scale-balanced fs-3 mt-3"></i>
