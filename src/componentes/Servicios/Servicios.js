@@ -10,7 +10,7 @@ const Servicios = () => {
   return (
     <Container fluid className="seccion-servicio text-center">
       <Row>
-        <p className="titulo-seccion">Nuestros Servicios</p>
+        <p className="titulo-seccion-servicio">Nuestros Servicios</p>
 
         <Col sm={12} md={6}>
           <Card className="card-servicio" style={{height:"95%"}}>

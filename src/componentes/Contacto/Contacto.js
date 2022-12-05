@@ -86,7 +86,7 @@ export default function Contacto() {
           <Button
             className="button-enviar"
             size="sm"
-            variant="dark"
+            
             // onClick={handleSubmit}
           >
             Enviar
