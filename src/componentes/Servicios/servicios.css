@@ -1,7 +1,7 @@
 .seccion-servicio {
-  background: url(../img/fondopng.png) no-repeat fixed center ;
-  
-  background-size: cover;
+  /* background: url(../img/fondopng.png) no-repeat fixed center ;
+  background-size: cover; */
+  background-color: rgb(234, 231, 231);
   max-width: 100%;
   margin: 0;
 
