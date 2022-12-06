@@ -4,7 +4,8 @@ import "../Header/header.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+
 
 
 const Header = () => {
@@ -19,20 +20,16 @@ const Header = () => {
             Gestionamos tu propiedad en Providencia
           </p>
           <center>
-            <Form className="form-mail">
-              <Form.Group
-                className="mb-3 text-center"
-                controlId="exampleForm.ControlInput1"
-              >
-                <Form.Label>Subscríbete para recibir más información</Form.Label>
-                <Form.Control
-                  type="email"
-                  placeholder="name@example.com"
-                  size="sm"
-                  className="mt-3"
-                />
-              </Form.Group>
-            </Form>
+          <div className="container-boton">
+          <Button
+            className="button-enviar"
+            size="sm"
+            
+            // onClick={handleSubmit}
+          >
+            Contáctanos
+          </Button>
+        </div>
           </center>
         </Col>
       </Row>

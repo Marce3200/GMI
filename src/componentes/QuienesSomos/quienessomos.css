@@ -9,20 +9,20 @@
     font-weight: 300;
     margin-bottom: 40px;
     color: white;
-    line-height: 20px;
+    line-height: 22px;
 }
 .titulo-seccion-quienes{
     text-transform: uppercase;
     font-size: x-large;
     font-weight: 100;
     letter-spacing: 1.9px;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 10px;
     
     color: white;
 }
 .text-valores {
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 0.4px;
     font-family: "Manrope", sans-serif;
     font-weight: 100;
@@ -44,7 +44,7 @@
 
   .valores{
     padding: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
   }
   
 i{
