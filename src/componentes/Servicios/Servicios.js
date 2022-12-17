@@ -18,11 +18,14 @@ const Servicios = () => {
             <ListGroup variant="flush">
               <i className="fa-solid fa-sign-hanging fs-3 mt-3"></i>
               <Card.Title className="titulo-card">
-                Corretaje de Propiedades
+                Corretajes
               </Card.Title>
               <ListGroup.Item className="text-card">
-                Compra/venta y arriendo de distintos bienes Inmuebles (casas,
-                deptos, comercios, oficinas, terrenos etc.)
+              Compraventa de inmuebles.
+              Promoción de propiedades en el mercado inmobiliario.
+              Asesoría legal en todo el proceso de compraventa
+
+                
               </ListGroup.Item>
               <ListGroup.Item className="text-card">
               Publicación de las propiedades en los más importantes portales de

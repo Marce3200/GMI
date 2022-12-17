@@ -16,8 +16,8 @@ const Footer = () => {
         <Col sm={12} md={4} lg={4} className="mt-3 mb-3">
           <p className="titulo-footer">Ven a visitarnos</p>
           <ul className="list-unstyled">
-            <li>+562 223 5644</li>
-            <li>Providencia 2463</li>
+            <li>+569 96854511</li>
+            <li></li>
             <li>Santiago, Chile</li>
           </ul>
         </Col>
@@ -47,7 +47,7 @@ const Footer = () => {
         <hr className="hr" />
         <Row>
           <p className="texto-derechos col-sm">
-            &copy;2022 @coding4u.cl| Todos los derechos reservados |
+            &copy;2022 @coding4u.cl - Todos los derechos reservados 
           </p>
         </Row>
       
