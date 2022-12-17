@@ -37,11 +37,11 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="/quienes-somos" className="links-footer">
+              <a href="/quienes-somos#quienesSomos" className="links-footer">
                 Nosotros
               </a>
             </li>
-          </ul>cd GM
+          </ul>
         </Col>
 
         </Row></center>

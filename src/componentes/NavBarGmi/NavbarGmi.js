@@ -20,7 +20,7 @@ const NavbarGmi = () => {
           </Nav>
           <Nav>
             <Nav.Link href="/servicios">Servicios</Nav.Link>
-            <Nav.Link href="/quienes-somos">Nosotros</Nav.Link>
+            <Nav.Link href='/quienes-somos#quienesSomos' >Nosotros</Nav.Link>
             <Nav.Link href="/contacto">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>

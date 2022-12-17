@@ -16,8 +16,9 @@ const QuienesSomos = () => {
        </Col>
        </Row>
         <Row className="w-75">
-          <Col>
-            <p className="titulo-seccion-quienes">Quiénes Somos</p>
+          <Col id='quienesSomos'>
+    
+            <p className="titulo-seccion-quienes"  >Quiénes Somos</p>
 
             <p className="texto-descripcion">
               MGI Gestión Inmobiliaria nace a partir de la unión de competencias

@@ -21,14 +21,13 @@ const Header = () => {
           </p>
           <center>
           <div className="container-boton">
-          <Button
+          
+          <a href = "/contacto"><Button
             className="button-enviar"
-            size="sm"
-            
-            // onClick={handleSubmit}
-          >
+            size="sm">
             Contáctanos
           </Button>
+          </a>
         </div>
           </center>
         </Col>
