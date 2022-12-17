@@ -18,31 +18,18 @@ const Servicios = () => {
             <ListGroup variant="flush">
               <i className="fa-solid fa-sign-hanging fs-3 mt-3"></i>
               <Card.Title className="titulo-card">
-                Corretaje de Propiedades
+                Administración de Arriendos
               </Card.Title>
               <ListGroup.Item className="text-card">
-                Compra/venta y arriendo de distintos bienes Inmuebles (casas,
-                deptos, comercios, oficinas, terrenos etc.)
+              Diseñamos contratos de arriendo de acuerdo a tus requerimientos
               </ListGroup.Item>
               <ListGroup.Item className="text-card">
-              Publicación de las propiedades en los más importantes portales de
-              venta y arriendo del país (portal inmobiliario, yapo, redes
-              sociales, etc).
+              Buscamos y seleccionamos arrendatarios
               </ListGroup.Item>
               <ListGroup.Item className="text-card">
-              Asesoría calificada de inversión y rentabilidad de
-              los distintos Bienes Inmuebles.
+              Vigilamos el cumplimiento de los contratos y la mantención de tu inmueble
               </ListGroup.Item>
-              <ListGroup.Item className="text-card">
-              Atención personalizada.
-              </ListGroup.Item>
-              <ListGroup.Item className="text-card"> 
-              Evaluación financiera y legal de arrendatarios. 
-              </ListGroup.Item>
-              <ListGroup.Item className="text-card"> 
-              Protocolos estrictos de
-              evaluación de arrendatarios.
-              </ListGroup.Item>
+              
               
             </ListGroup>
           </Card>
@@ -53,22 +40,19 @@ const Servicios = () => {
             <ListGroup variant="flush">
               <i className="fa-solid fa-house-circle-check fs-3 mt-3"></i>
               <Card.Title className="titulo-card">
-                Administración de Propiedades
+                Corretajes
               </Card.Title>
 
               <ListGroup.Item  className="text-card">
-                Múltiples contratos de administración. 
+              Compraventa de inmuebles 
                 </ListGroup.Item>
 
                 <ListGroup.Item  className="text-card">
-                Administración de
-                viviendas, departamentos, comercios y oficinas. 
+                Promoción de propiedades en el mercado inmobiliario 
                 </ListGroup.Item>
 
                 <ListGroup.Item  className="text-card">
-                Cobro mensual de
-                arriendo y supervisión de gastos y mantenciones de las
-                propiedades. 
+                Asesoría legal en todo el proceso de compraventa
                 </ListGroup.Item>
 
                 <ListGroup.Item  className="text-card">
@@ -80,10 +64,7 @@ const Servicios = () => {
                 Altos estándares de calidad. 
                 </ListGroup.Item>
 
-                <ListGroup.Item  className="text-card">
-                Resguardo de
-                rentabilidad y patrimonio de nuestros clientes.
-              </ListGroup.Item>
+            
               </ListGroup>
           </Card>
         </Col>
@@ -93,20 +74,17 @@ const Servicios = () => {
             <ListGroup variant="flush">
               <i className="fa-solid fa-file-contract fs-3 mt-3"></i>
               <Card.Title className="titulo-card">
-                Servicios Legales Inmobiliarios
+                Soporte Legal
               </Card.Title>
               <ListGroup.Item  className="text-card">
-                Estudio de títulos y Redacción de escrituras (compraventa,
-                sesión de derechos, etc.) 
+              Estudios de títulos
                 
                 </ListGroup.Item>
                 <ListGroup.Item  className="text-card">
-                  Posesiones Efectivas y Herencias
-                (Servicios de Trámites en Registro Civil y CBR) 
+                Regularización de títulos
                 </ListGroup.Item>
                 <ListGroup.Item  className="text-card">
-                Asesoría Legal
-                Inmobiliaria
+                Confección de escrituras de compraventa, promesas y otros contratos afines.
                 </ListGroup.Item>
               
               </ListGroup>
@@ -118,34 +96,21 @@ const Servicios = () => {
             <ListGroup variant="flush">
               <i className="fa-solid fa-scale-balanced fs-3 mt-3"></i>
               <Card.Title className="titulo-card">
-                Estudios y Tasaciones
+                Tasaciones
               </Card.Title>
               <ListGroup.Item  className="text-card">
-                Tasación
+              Tasaciones de inmuebles
                 </ListGroup.Item>
 
                 <ListGroup.Item  className="text-card">
-                Análisis de
-                rentabilidad de Bienes Inmuebles.
+                Análisis de rentabilidad
                 </ListGroup.Item>
 
                 <ListGroup.Item  className="text-card">
-                 Estudios de Cabida: Análisis de
-                Aspectos normativos. 
+                Análisis de mercado
                 </ListGroup.Item>
 
-                <ListGroup.Item  className="text-card">
-                Estudios de mercado de ventas y arriendos,
-                oferta y/o demanda. 
-                </ListGroup.Item>
-
-                <ListGroup.Item  className="text-card">
-                Factibilidades de tipología de proyectos.
-                </ListGroup.Item>
-
-                <ListGroup.Item  className="text-card">
-                Proyecciones (AP y PE).
-              </ListGroup.Item>
+              
               </ListGroup>
           </Card>
         </Col>
