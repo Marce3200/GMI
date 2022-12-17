@@ -14,11 +14,12 @@ const Footer = () => {
         </Col>
         
         <Col sm={12} md={4} lg={4} className="mt-3 mb-3">
-          <p className="titulo-footer">Ven a visitarnos</p>
+          <p className="titulo-footer">Contacto</p>
           <ul className="list-unstyled">
-            <li>+569 96854511</li>
-            <li></li>
-            <li>Santiago, Chile</li>
+            <li><i className="fa-brands fa-whatsapp"> </i> +569 96854511</li>
+            <li><i className="fa-regular fa-paper-plane"></i>  contacto@mgi.cl</li>
+            
+            
           </ul>
         </Col>
        
@@ -40,14 +41,14 @@ const Footer = () => {
                 Nosotros
               </a>
             </li>
-          </ul>
+          </ul>cd GM
         </Col>
 
         </Row></center>
         <hr className="hr" />
         <Row>
           <p className="texto-derechos col-sm">
-            &copy;2022 @coding4u.cl - Todos los derechos reservados 
+            &copy;2022 @coding4u.cl | Todos los derechos reservados
           </p>
         </Row>
       
